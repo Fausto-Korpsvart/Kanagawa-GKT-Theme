@@ -30,7 +30,7 @@ So, this is my first attempt with GTK themes, which currently only works on the 
 
 #### Installing themes in GNOME
 
-- 1 Download the theme from: [Kanagawa GTK Theme](https://www.pling.com/s/Gnome/p/1715554) and unzip the files.
+- 1 Download the theme from: [Kanagawa GTK Theme](https://www.pling.com/s/Gnome/p/1810560) and unzip the files.
 - Cut the unzipped files and paste it into any of the following paths:
   - '~/.themes' in the 'home' directory, Create the folder '.themes' and paste the theme folders inside.
   - For Gnome 42 you need to put the file in '~/.config/gtk-4.0' and rename to 'gtk.css', (I change the names to identify each file)

@@ -52,7 +52,7 @@ stage {
   background-image: url('assets/applogo.svg');
   background-size: contain;
   border-radius: 9px;
-  padding: 2px;
+  padding: 2px 4px;
 }
 
 .show-apps .overview-icon,
@@ -3332,7 +3332,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .window-close {
-  background-color: #242424;
+  background-color: #2A2A37;
   color: #dcd7ba;
   border-radius: 21px;
   padding: 3px;
@@ -3344,12 +3344,12 @@ StScrollBar StButton#hhandle:active {
 
 .window-close:hover {
   color: #dcd7ba;
-  background-color: #333333;
+  background-color: #363646;
 }
 
 .window-close:active {
   color: #dcd7ba;
-  background-color: #151515;
+  background-color: #43242B;
 }
 
 .workspace-background {

@@ -106,6 +106,7 @@ window.csd.tiled-right,
 window.csd.tiled-bottom,
 window.csd.tiled-left {
   border-radius: 0;
+  outline-width: 0;
 }
 
 windowcontrols {

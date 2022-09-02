@@ -1,5 +1,5 @@
 /* GTK NAMED COLORS
- ----------------
+   ----------------
    use responsibly! */
 
 /* widget text/foreground color */
@@ -13372,7 +13372,7 @@ headerbar
 }
 
 .titlebar stackswitcher {
-  border: 1px solid #c8c093;
+  border: 2px solid #c8c093;
 }
 
 .titlebar
@@ -13547,7 +13547,7 @@ box.vertical headerbar {
 
 headerbar > box.left,
 headerbar > box.right {
-  padding: 0 2px;
+  padding: 0 6px;
 }
 
 headerbar entry,
@@ -14102,7 +14102,7 @@ menu,
   background-color: #223249;
   background-clip: border-box;
   border-radius: 12px;
-  border: 1px solid #c8c093;
+  border: 2px solid #c8c093;
 }
 
 .csd menu,
@@ -14306,18 +14306,8 @@ popover.background {
 
 popover.background,
 .csd popover.background {
-  border: 1px solid rgba(220, 215, 186, 0.1);
-  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.05),
-    0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.05),
-    0 0 0 1px rgba(0, 0, 0, 0.75);
-  background-clip: border-box;
-}
-
-popover.background:backdrop,
-.csd popover.background:backdrop {
-  box-shadow: 0 3px 2px -2px rgba(0, 0, 0, 0.05),
-    0 2px 3px -1px rgba(0, 0, 0, 0.06), 0 1px 4px 0 rgba(0, 0, 0, 0.05),
-    0 0 0 1px rgba(0, 0, 0, 0.75);
+  border: 2px solid #c8c093;
+  box-shadow: none;
 }
 
 popover.background > stack {
@@ -14796,7 +14786,7 @@ switch {
   transition: all 75ms cubic-bezier(0, 0, 0.2, 1);
   margin: 6px 0;
   padding: 0;
-  border: 1px solid rgba(220, 215, 186, 0.7);
+  border: 2px solid rgba(220, 215, 186, 0.7);
   border-radius: 9999px;
   background-color: transparent;
   background-clip: border-box;
@@ -16756,7 +16746,7 @@ infobar.question:backdrop > revealer > box *:link {
 
 infobar.action:hover > revealer > box,
 infobar.question:hover > revealer > box {
-  background-color: #dcd7ba;
+  background-color: lightgray;
 }
 
 infobar.warning > revealer > box,
@@ -16973,23 +16963,21 @@ colorchooser .popover.osd:backdrop {
  **********************/
 decoration {
   transition: box-shadow 75ms cubic-bezier(0, 0, 0.2, 1);
-  border-radius: 12px;
-  box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2),
-    0 16px 15px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12),
-    0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 36px transparent;
+  border-radius: 14px;
+  box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
+    0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
+    0 0 16px transparent;
+  border: 2px solid #c8c093;
+  background-clip: border-box;
   margin: 8px;
 }
 
-.csd decoration {
-  border: 1px solid rgba(220, 215, 186, 0.2);
-  background-color: #1f1f28;
-  background-clip: border-box;
-}
-
 decoration:backdrop {
-  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.15),
-    0 4px 3px 0 rgba(0, 0, 0, 0.18), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
-    0 0 0 1px rgba(0, 0, 0, 0.75), 0 0 36px transparent;
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3),
+    0 1px 2px -1px rgba(0, 0, 0, 0.24),
+    0 1px 2px -0.6px rgba(0, 0, 0, 0.17), 0 0 16px transparent;
+  border: 2px solid #54546d;
+  background-clip: border-box;
 }
 
 .maximized decoration,
@@ -17004,28 +16992,19 @@ decoration:backdrop {
 
 .popup decoration {
   box-shadow: none;
-  border: none;
 }
 
 .ssd decoration {
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.16);
   border: none;
   border-radius: 12px 12px 0 0;
-  background-color: #1f1f28;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.75);
-}
-
-.metacity decoration {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-  border: none;
 }
 
 .csd.popup decoration {
   border-radius: 12px;
-  border: 1px solid rgba(220, 215, 186, 0.2);
-  box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.05),
-    0 4px 6px 0 rgba(0, 0, 0, 0.06), 0 1px 10px 0 rgba(0, 0, 0, 0.05),
-    0 0 0 1px rgba(0, 0, 0, 0.75);
+  border-radius: 14px;
+  border: 2px solid #c8c093;
+  background-clip: border-box;
 }
 
 tooltip.csd decoration {
@@ -17036,8 +17015,7 @@ tooltip.csd decoration {
 
 messagedialog.csd decoration {
   border-radius: 12px;
-  border: 1px solid rgba(220, 215, 186, 0.2);
-  background-color: #363646;
+  border: none;
 }
 
 .solid-csd decoration {
@@ -17046,11 +17024,16 @@ messagedialog.csd decoration {
   border-radius: 12px;
   box-shadow: none;
   background-color: #1f1f28;
-  border: 1px solid rgba(220, 215, 186, 0.2);
+  border: 2px solid #c8c093;
 }
 
 .solid-csd decoration:backdrop {
+  margin: 0;
+  padding: 2px;
+  border-radius: 12px;
+  box-shadow: none;
   background-color: #1f1f28;
+  border: 2px solid #363646;
 }
 
 button.titlebutton:not(.suggested-action):not(.destructive-action) {
@@ -17129,7 +17112,7 @@ stackswitcher {
   padding: 2px;
   margin: 6px 0;
   background-color: transparent;
-  border: 1px solid #c8c093;
+  border: 2px solid #c8c093;
 }
 
 stackswitcher.linked:not(.vertical)
@@ -17282,13 +17265,13 @@ popover.emoji-completion .emoji:hover {
 .nautilus-window.background.csd placessidebar > viewport.frame {
   background-color: #1f1f28;
   color: #dcd7ba;
-  margin: 2px 0 2px 6px;
+  margin: 0;
   border-radius: 12px;
 }
 
 .nautilus-window.background.csd placessidebar > viewport.frame > list {
   background: none;
-  padding: 4px 0 4px 4px;
+  padding: 0 0 0 8px;
 }
 
 .nautilus-window.background.csd
@@ -17453,7 +17436,7 @@ filechooser
   background-color: #16161d;
   border-radius: 12px;
   border: 1px solid rgba(54, 54, 70, 0.2);
-  margin: 0 6px 6px 6px;
+  margin: 0 6px 6px;
 }
 
 .nautilus-window.background.csd
@@ -20849,14 +20832,23 @@ window.background.csd.unified headerbar.selection-mode {
   box-shadow: none;
 }
 
-window.background.csd.unified > decoration-overlay {
-  box-shadow: inset 0 0 0 1px rgba(220, 215, 186, 0.2);
-}
-
 window.background.csd.unified,
 window.background.csd.unified > decoration,
 window.background.csd.unified > decoration-overlay {
   border-radius: 12px;
+  border: none;
+  box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
+    0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12),
+    0 0 0 2px #c8c093, 0 0 16px transparent;
+}
+
+window.background.csd.unified:backdrop,
+window.background.csd.unified > decoration:backdrop,
+window.background.csd.unified > decoration-overlay:backdrop {
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3),
+    0 1px 2px -1px rgba(0, 0, 0, 0.24),
+    0 1px 2px -0.6px rgba(0, 0, 0, 0.17), 0 0 0 2px #2a2a37,
+    0 0 16px transparent;
 }
 
 window.background.csd.unified.tiled > decoration-overlay,
@@ -20900,7 +20892,8 @@ overlay > revealer.left > scrolledwindow.frame,
 overlay > revealer.right > scrolledwindow.frame {
   border-style: none;
   box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2),
-    0 16px 14.4px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12);
+    0 16px 14.4px 2px rgba(0, 0, 0, 0.14),
+    0 6px 18px 5px rgba(0, 0, 0, 0.12);
 }
 
 overlay > revealer.left > scrolledwindow.frame {
@@ -20986,7 +20979,7 @@ window.background.chromium {
 
 window.background.chromium entry,
 window.background.chromium > button {
-  border: 1px solid #2a2a37;
+  border: 1px solid #2A2A37;
 }
 
 window.background.chromium > button {
@@ -21411,7 +21404,8 @@ UnityDecoration .menuitem:hover {
 .background:not(.csd) headerbar:not(.titlebar) {
   border-radius: 0;
   box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.3),
-    0 1px 2px -1px rgba(0, 0, 0, 0.24), 0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
+    0 1px 2px -1px rgba(0, 0, 0, 0.24),
+    0 1px 2px -0.6px rgba(0, 0, 0, 0.17);
 }
 
 .background:not(.csd) headerbar:not(.titlebar).inline-toolbar {
@@ -22047,7 +22041,8 @@ MsdOsdWindow.background.osd .progressbar {
 .budgie-popover {
   border-style: solid;
   border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2) rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.2)
+    rgba(0, 0, 0, 0.3);
   border-radius: 6px;
   box-shadow: 0 2px 2.4px -1px rgba(0, 0, 0, 0.2),
     0 4px 3px 0 rgba(0, 0, 0, 0.14), 0 1px 6px 0 rgba(0, 0, 0, 0.12);
@@ -22610,7 +22605,8 @@ frame.raven-frame > border {
 .raven {
   background-color: #223249;
   box-shadow: 0 8px 6px -5px rgba(0, 0, 0, 0.2),
-    0 16px 14.4px 2px rgba(0, 0, 0, 0.14), 0 6px 18px 5px rgba(0, 0, 0, 0.12);
+    0 16px 14.4px 2px rgba(0, 0, 0, 0.14),
+    0 6px 18px 5px rgba(0, 0, 0, 0.12);
 }
 
 .raven > box {

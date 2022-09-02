@@ -238,6 +238,15 @@ calendar > grid > label.today:selected {
   font-family: monospace;
 }
 
+listview,
+list {
+  outline: 2px solid alpha(currentColor, 0.06);
+}
+
+list.frame {
+  border-radius: 12px;
+}
+
 headerbar,
 separator {
   box-shadow: none;

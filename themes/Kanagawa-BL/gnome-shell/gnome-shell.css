@@ -2046,8 +2046,8 @@ StEntry StLabel.hint-text,
 
 /* Notifications & Message Tray */
 .notification-banner {
-  width: 34em;
-  min-height: 64px;
+  width: 25em;
+  min-height: 65px;
   margin: 2px 5px 8px;
   border-radius: 6px;
   color: rgba(220, 215, 186, 0.7);

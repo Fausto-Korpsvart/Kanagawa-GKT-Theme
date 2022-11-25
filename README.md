@@ -1,7 +1,5 @@
 # Kanagawa GKT Theme
 
----
-
 ![Kanawaga Border](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/screenshots/01-Kanagawa.png)
 **Kanawaga Border**
 ![Kanawaga Border](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/screenshots/02-Kanagawa.png)

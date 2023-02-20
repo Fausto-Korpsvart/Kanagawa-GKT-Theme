@@ -13,7 +13,7 @@
 > With support also for the desktop environments Cinnamon and XFCE.<br />
 > You can check **Reddit:** [r/unixporn](https://www.reddit.com/r/unixporn/) to get some ideas.
 
-![Kanagawa](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/screenshots/Kangawa.png)
+![Kanagawa](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/extra/screenshots/Kangawa.png)
 
 ## Installing Themes
 

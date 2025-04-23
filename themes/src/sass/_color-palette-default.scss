@@ -1,0 +1,69 @@
+// Kanagawa Wave/Lotus Theme Color Palette
+
+// Red
+$red-light: #c84053;
+$red-dark: #e46876;
+
+// Pink
+$pink-light: #b35b79;
+$pink-dark: #d27e99;
+
+// Purple
+$purple-light: #624c83;
+$purple-dark: #957fb8;
+
+// Blue
+$blue-light: #4d699b;
+$blue-dark: #7e9cd8;
+
+// Teal
+$teal-light: #4e8ca2;
+$teal-dark: #6caf95;
+
+// Green
+$green-light: #6f894e;
+$green-dark: #98bb6c;
+
+// Yellow
+$yellow-light: #de9800;
+$yellow-dark: #dca561;
+
+// Orange
+$orange-light: #cc6d00;
+$orange-dark: #ffa066;
+
+// Grey
+$grey-050: #f9f5d7;
+$grey-100: #f2ecbc;
+$grey-150: #e5ddb0;
+$grey-200: #dcd7ba;
+$grey-250: #e7dba0;
+$grey-300: #dcd5ac;
+$grey-350: #d5cea3;
+$grey-400: #c8c093;
+$grey-450: #727169;
+$grey-500: #716e61;
+$grey-600: #54546d;
+$grey-550: #545464;
+$grey-650: #43436c;
+$grey-700: #363646;
+$grey-750: #2a2a37;
+$grey-800: #1f1f28;
+$grey-850: #1a1a22;
+$grey-900: #181820;
+$grey-950: #16161d;
+
+// White
+$white: #f2ecbc;
+
+// Black
+$black: #1f1f28;
+
+// Theme
+$default-light: $blue-light;
+$default-dark: $blue-dark;
+
+// Button
+$button-close: if($topbar == 'light', #c84053, #e46876);
+$button-max: if($topbar == 'light', #6f894e, #98bb6c);
+$button-min: if($topbar == 'light', #de9800, #dca561);

@@ -6,7 +6,7 @@
    viewBox="0 0 24 24"
    id="svg1780"
    sodipodi:docname="radiobutton-dark.svg"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -39,9 +39,9 @@
      showgrid="false"
      inkscape:zoom="9.8333333"
      inkscape:cx="12.050847"
-     inkscape:cy="12.050847"
-     inkscape:window-width="1847"
-     inkscape:window-height="989"
+     inkscape:cy="12"
+     inkscape:window-width="1835"
+     inkscape:window-height="977"
      inkscape:window-x="102"
      inkscape:window-y="102"
      inkscape:window-maximized="0"
@@ -63,7 +63,7 @@
      cx="12"
      cy="12"
      r="3"
-     style="fill:#16161d;stroke-width:1.2;fill-opacity:1" />
+     style="fill:#1f1f28;stroke-width:1.2;fill-opacity:1" />
   <path
      id="circle689"
      style="opacity:0.1;fill:#ffffff;fill-opacity:1"

@@ -5,7 +5,7 @@
    version="1.1"
    id="svg939"
    sodipodi:docname="toggle-on-dark.svg"
-   inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
+   inkscape:version="1.4.2 (ebf0e940d0, 2025-05-08)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +38,7 @@
      showgrid="true"
      inkscape:zoom="11.8"
      inkscape:cx="37.838983"
-     inkscape:cy="15.635593"
+     inkscape:cy="15.59322"
      inkscape:window-width="1867"
      inkscape:window-height="1009"
      inkscape:window-x="0"
@@ -81,7 +81,7 @@
      r="9"
      fill="#ffffff"
      stroke-width="0"
-     style="paint-order:stroke fill markers;fill:#16161d;fill-opacity:1"
+     style="paint-order:stroke fill markers;fill:#1f1f28;fill-opacity:1"
      id="circle4" />
   <path
      id="rect876"

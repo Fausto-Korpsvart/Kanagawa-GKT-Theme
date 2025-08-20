@@ -12,7 +12,7 @@ for theme in '' '-Blue' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Te
                         theme_color='#6f894e'
                         ;;
                     -Grey)
-                        theme_color='#c8c093'
+                        theme_color='#54546d'
                         ;;
                     -Orange)
                         theme_color='#cc6d00'
@@ -45,7 +45,7 @@ for theme in '' '-Blue' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Te
                             theme_color='#6f894e'
                             ;;
                         -Grey)
-                            theme_color='#c8c093'
+                            theme_color='#54546d'
                             ;;
                         -Orange)
                             theme_color='#cc6d00'
@@ -76,7 +76,7 @@ for theme in '' '-Blue' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Te
                         theme_color='#98bb6c'
                         ;;
                     -Grey)
-                        theme_color='#54546d'
+                        theme_color='#c8c093'
                         ;;
                     -Orange)
                         theme_color='#ffa066'
@@ -109,7 +109,7 @@ for theme in '' '-Blue' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Te
                             theme_color='#87a987'
                             ;;
                         -Grey)
-                            theme_color='#54546d'
+                            theme_color='#c8c093'
                             ;;
                         -Orange)
                             theme_color='#b6927b'
@@ -136,16 +136,16 @@ for theme in '' '-Blue' '-Green' '-Grey' '-Orange' '-Pink' '-Purple' '-Red' '-Te
             if [[ "$type" != '' ]]; then
                 cp -r "assets${color}.svg" "assets${theme}${color}${type}.svg"
                 if [[ "$color" == '' ]]; then
-                    sed -i "s/#7e9cd8/${theme_color}/g" "assets${theme}${color}${type}.svg"
-                else
                     sed -i "s/#4d699b/${theme_color}/g" "assets${theme}${color}${type}.svg"
+                else
+                    sed -i "s/#7e9cd8/${theme_color}/g" "assets${theme}${color}${type}.svg"
                 fi
             elif [[ "$theme" != '' ]]; then
                 cp -r "assets${color}.svg" "assets${theme}${color}.svg"
                 if [[ "$color" == '' ]]; then
-                    sed -i "s/#7e9cd8/${theme_color}/g" "assets${theme}${color}.svg"
-                else
                     sed -i "s/#4d699b/${theme_color}/g" "assets${theme}${color}.svg"
+                else
+                    sed -i "s/#7e9cd8/${theme_color}/g" "assets${theme}${color}.svg"
                 fi
             fi
 

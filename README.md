@@ -12,7 +12,7 @@
 A GTK theme based on the colours of [Rebelot's](https://github.com/rebelot) great theme: [Kanagawa for Neovim](https://github.com/rebelot/kanagawa.nvim),<br>
 the [VinceLiuice's](https://github.com/vinceliuice) Awesome GTK Themes and the creativity of [Gusbemacbe's](https://github.com/gusbemacbe): [Suru Plus Icon Theme](https://github.com/gusbemacbe/suru-plus).
 
-![Kanagawa](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/extra/screenshots/Kangawa.png)
+![Kanagawa](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/extra/screenshots/Kanagawa.png)
 
 > [!NOTE]
 > The theme is more focused on the Gnome Desktop, but supports Cinnamon, XFCE, Mate, etc. with generic styles.

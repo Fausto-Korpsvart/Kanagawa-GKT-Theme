@@ -10,8 +10,7 @@
 </p>
 
 A GTK theme based on the colours of [Rebelot's](https://github.com/rebelot) great theme: [Kanagawa for Neovim](https://github.com/rebelot/kanagawa.nvim),<br>
-the [VinceLiuice's](https://github.com/vinceliuice) awesome: [Magnetic GTK theme](https://github.com/vinceliuice/Magnetic-gtk-theme),
-and the creativity of [Gusbemacbe's](https://github.com/gusbemacbe): [Suru Plus Icon Theme](https://github.com/gusbemacbe/suru-plus).
+the [VinceLiuice's](https://github.com/vinceliuice) Awesome GTK Themes and the creativity of [Gusbemacbe's](https://github.com/gusbemacbe): [Suru Plus Icon Theme](https://github.com/gusbemacbe/suru-plus).
 
 ![Kanagawa](https://raw.githubusercontent.com/Fausto-Korpsvart/Kanagawa-GKT-Theme/main/extra/screenshots/Kangawa.png)
 

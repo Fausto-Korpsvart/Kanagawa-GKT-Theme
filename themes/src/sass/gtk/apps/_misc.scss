@@ -99,12 +99,11 @@ window.background > box.vertical > scrolledwindow > widget toolbar {
 		border-radius: $corner-radius;
 	}
 }
-
 /************
  * Chromium *
  ************/
 window.background.chromium {
-	background-color: $background;
+	background-color: $base;
 	color: $text;
 
 	headerbar.titlebar {
